@@ -1,0 +1,14 @@
+name: mmlu-ollama
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - requests
+  - tqdm
+  - pandas
+  - h5py
+  - pip:
+      - datasets
+      - perun
